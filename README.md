@@ -1,3 +1,16 @@
+## Welcome to Taxonomy of Deployment Patterns
+
+This is a simple repository to explain what Air-Gapped and Proxy means in the realworld. 
+
+
+* direct connected
+* nat'ed
+* private nat'ed
+* proxy
+* disconnected
+* air-gapped
+* Sneakernet
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/snowjet/taxonomy/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
