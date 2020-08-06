@@ -1,0 +1,1 @@
+These systems are directy connected to the internet, and there is no proxy or other barrier preventing access.

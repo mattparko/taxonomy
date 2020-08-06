@@ -1,0 +1,7 @@
+= Taxonomy
+
+Typically the network connectivity for an environment is determined both by function and risk. Some applications may need to be directly connected to the internet, and the risk to these systems can be mitigated. For other systems, the risk of data loss is so great that they must be physically disconnected from all other networks. This repository provides a taxonomy for network connectivity, making it easier to discuss and collaborate.
+
+== Direct connected
+
+include::direct_connected.adoc[leveloffset=2]
