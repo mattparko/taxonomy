@@ -1,6 +1,6 @@
 # Welcome to Taxonomy of Deployment Patterns
 
-## Why does this document exist (Adam)
+## Why does this document exist
 NAT, Proxy, Air-Gapped, Disconnected...these terms appear frequently and occasionally have been used interchangeably. Each one of these describes a networking configuration that has a significant impact on how software applications can be deployed, as well as the assumptions that can be made around how the Internet can be accessed (if at all), and how data transfers occur in the environment.
 
 When talking with customers and other organisations, having a common language around application deployments is crucial.
@@ -54,9 +54,9 @@ These networks are used for workloads or data that require the highest level of 
 Data transfers for these networks are nearly always manual. Transferring data into the air-gapped environment will involve an operator copying content onto removable media, walking the removable media across the room (hence the origin of the term ‘sneakernet’), scanning the data for malware, connecting the media to the air-gapped system and transferring the data. On extremely rare occasions these networks may come with a ‘data diode’ for one way data transfer, but these should not be expected to exist.
 
 ### Contributors
-Adam Goossens
-Shane Boulden
-Rarm Nagalingam
+* Adam Goossens
+* Shane Boulden
+* Rarm Nagalingam
 
 ### Support or Contact
 
