@@ -27,6 +27,8 @@ Systems behind a Network Address Translation (NAT) gateway share a public IP. Th
 
 By design NAT breaks the “end-to-end” principle of IP communications by rerouting and transforming packets, and this can cause issues with applications. A well-known example is the File Transfer Protocol (FTP) - in conventional (active) FTP, the client opens a control connection to the server, and then commands the server to connect back to its own IP address to open a data transfer connection. When behind a NAT, the client will provide its private address, which is not reachable behind the NAT gateway. 
 
+![NAT](images/nat.png)
+
 ### Cloud Gateway
 Cloud gateways connect your on-premises hosts and systems to public cloud services. Some examples of these services include Microsoft Azure ExpressRoute, AWS Direct Connect, and Google Cloud Dedicated Interconnect. Typically these services use BGP to route data from your datacenter to public cloud datacenters over WAN links.  
 
