@@ -39,6 +39,8 @@ A proxy inspects traditional website traffic such as access to nytimes.com, alon
 
 If you are developing software to operate within an Enterprise or Government organisation its important to support authenticated proxy access. Even if your software is intended to run on a public cloud provider, Enterprises still enforce that all traffic must transit a proxy before being accessing the public internet or even a public API endpoint of a cloud provider. 
 
+![Proxy](images/proxy.png)
+
 ### Disconnected
 A Disconnected network is different from an Air-Gapped network. We make this distinction because of the confusion between the two. 
 
