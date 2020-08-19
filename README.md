@@ -22,6 +22,8 @@ Directly connected systems refer to those that are provided with an Internet-rou
 
 Traffic exiting this host will not be passed through Network Address Translation (NAT), or a proxy. The next hop will be the gateway router of the Internet Service Provider of the organisation.
 
+![Directconnected.png](images/directconnected.png)
+
 ### NAT
 Systems behind a Network Address Translation (NAT) gateway share a public IP. These systems are commonly referred to as being “natted”, and this is usually how you will access the internet as an internet service provider (ISP) customer. NAT doesn’t really provide any security benefits for your architecture - it simply obscures your hosts behind a single public IP address.
 
@@ -49,8 +51,6 @@ Simply, a disconnected network may have intermittent or non-permanent access to 
 For example: two systems straddling both sides of a firewall. On one side a content repository (repo-a) that mirrors directly from the internet, and on the other side a repository (repo-b) that mirrors directly from repo-o.  
 
 Disconnected systems are slowly becoming synonymous with Edge commuting. An edge server may receive signals from many hundred Internet of Things (IoT) devices. The edge server could be considered disconnected from the central edge management hub as its connectivity may be intermittent or highly regulated and inspected. 
-
-![Directconnected.png](images/directconnected.png)
 
 ### Air-Gapped
 Air-gapped networks extend the concept of the ‘disconnected’ network by physically isolating the network. These networks have an entirely separate routing and switching infrastructure that provides no connectivity to any systems outside the air-gapped network. Visualise air-gapped networks as islands in the ocean, with no bridges to connect to them, and no communication with the outside world.
