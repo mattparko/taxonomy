@@ -50,12 +50,16 @@ For example: two systems straddling both sides of a firewall. On one side a cont
 
 Disconnected systems are slowly becoming synonymous with Edge commuting. An edge server may receive signals from many hundred Internet of Things (IoT) devices. The edge server could be considered disconnected from the central edge management hub as its connectivity may be intermittent or highly regulated and inspected. 
 
+![Directconnected.png](images/directconnected.png.png)
+
 ### Air-Gapped
 Air-gapped networks extend the concept of the ‘disconnected’ network by physically isolating the network. These networks have an entirely separate routing and switching infrastructure that provides no connectivity to any systems outside the air-gapped network. Visualise air-gapped networks as islands in the ocean, with no bridges to connect to them, and no communication with the outside world.
 
 These networks are used for workloads or data that require the highest level of protection. For example, these are extremely common in national security organisations that must isolate data based on classification. They are also common in heavily regulated industries, such as Financial Services. These networks can also be used to keep something *in*, i.e. for researchers analysing particularly virulent malware.
 
 Data transfers for these networks are nearly always manual. Transferring data into the air-gapped environment will involve an operator copying content onto removable media, walking the removable media across the room (hence the origin of the term ‘sneakernet’), scanning the data for malware, connecting the media to the air-gapped system and transferring the data. On extremely rare occasions these networks may come with a ‘data diode’ for one way data transfer, but these should not be expected to exist.
+
+![Air-Gap](images/airgap.png)
 
 ### Contributors
 * Adam Goossens
