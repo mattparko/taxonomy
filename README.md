@@ -50,7 +50,7 @@ For example: two systems straddling both sides of a firewall. On one side a cont
 
 Disconnected systems are slowly becoming synonymous with Edge commuting. An edge server may receive signals from many hundred Internet of Things (IoT) devices. The edge server could be considered disconnected from the central edge management hub as its connectivity may be intermittent or highly regulated and inspected. 
 
-![Directconnected.png](images/directconnected.png.png)
+![Directconnected.png](images/directconnected.png)
 
 ### Air-Gapped
 Air-gapped networks extend the concept of the ‘disconnected’ network by physically isolating the network. These networks have an entirely separate routing and switching infrastructure that provides no connectivity to any systems outside the air-gapped network. Visualise air-gapped networks as islands in the ocean, with no bridges to connect to them, and no communication with the outside world.
